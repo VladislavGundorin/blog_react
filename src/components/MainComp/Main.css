@@ -1,0 +1,20 @@
+main {
+    flex: 3;
+    border: dashed 0.2rem #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main article {
+    margin-bottom: 10px;
+}
+
+main .delete-button {
+    background-color: #cf3a15;
+}
+
+main .archive-button {
+    background-color: #A3AE9E;
+}

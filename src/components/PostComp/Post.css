@@ -1,0 +1,31 @@
+.post-list h2 {
+    color: black;
+    border-bottom: 3px solid #07b148;
+    margin: 0;
+    padding: 10px; 
+}
+
+.post .delete {
+    background-color: #cf3a15;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.post .archive {
+    background-color: #A3AE9E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}

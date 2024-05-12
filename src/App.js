@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import Main from './components/Main';
-import Aside from './components/Aside';
-import Header from './components/Header';
+import Main from './components/MainComp/Main.js';
+import Aside from './components/AsideComp/Aside.js'
+import Header from './components/HeaderComp/Header.js';
+import './components/Css/App.css'
 
 class App extends Component {
   state = {

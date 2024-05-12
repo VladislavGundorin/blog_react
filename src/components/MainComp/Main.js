@@ -1,6 +1,6 @@
 import React from "react"
-import Post from './Post';
-import './Css/Main.css'
+import Post from '../PostComp/Post';
+import './Main.css'
 
 class Main extends React.Component {
     render() {

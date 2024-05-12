@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Post.css'
 class Post extends React.Component {
   handleDelete = () => {
     this.props.onDelete(this.props.id);

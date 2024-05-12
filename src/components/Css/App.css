@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.content-area {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+/* .header {
+    display: flex;
+    background-color: #006b09;
+    border-bottom: 5px solid #07b148;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.header h1 {
+    color: #fff;
+} */
+
+/* main {
+    flex: 3;
+    border: dashed 0.2rem #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main article {
+    margin-bottom: 10px;
+}
+
+main .delete-button {
+    background-color: #cf3a15;
+}
+
+main .archive-button {
+    background-color: #A3AE9E;
+} */
+
+
+/* .post-list h2 {
+    color: black;
+    border-bottom: 3px solid #07b148;
+    margin: 0;
+    padding: 10px; 
+}
+
+.post .delete {
+    background-color: #cf3a15;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.post .archive {
+    background-color: #A3AE9E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+} */
+
+/* .aside li{
+    list-style-type: square;
+} */
