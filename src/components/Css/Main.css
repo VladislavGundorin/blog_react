@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+.header {
+    display: flex;
+    background-color: #006b09;
+    border-bottom: 5px solid #07b148;
+    color: white;
+    padding: 10px;
+    margin-top: 0px;
+    
+}
+.header h1 {
+    color: #fff;
+}
+.content-area {
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    flex: 3;
+    border: dashed 0.2rem #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+main article {
+    margin-bottom: 10px;
+}
+
+main .delete-button {
+    background-color: #cf3a15;
+}
+
+main .archive-button {
+    background-color: #A3AE9E;
+}
+
+aside {
+    flex: 1;
+    border: dashed 0.2rem #006b09;
+    border-radius: 15px;
+    box-shadow: 0.5em 1em 0.5em 0em rgba(64, 73, 59, 0.281);
+    padding: 10px;
+    height: 900px;
+    max-height: 900px;
+}
+
+aside h1 {
+    color: black;
+    border-bottom: 3px solid #07b148;
+}
+
+aside input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #40493B;
+    margin-bottom: 10px;
+    height: 30px;
+    width: "300px";
+}
+aside textarea {
+    display: block;
+    width: 450px;
+    border: none;
+    border-bottom: 2px solid #40493B;
+    margin-bottom: 10px;
+    height: "100px";
+    resize: vertical;
+}
+
+aside .create-button {
+    background-color: #006b09;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+aside .create-button:focus {
+    background-color: #07b148;
+}
+
+aside .archive {
+    margin-top: 20px;
+}
+
+aside .archive h1 {
+    color: black;
+    border-bottom: 2px solid #07b148;
+    margin: 0;
+    padding: 10px; 
+}
+
+aside .archive ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+.aside button {
+    background-color: #006b09;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 16px;
+    
+}
+.post-list h2 {
+    color: black;
+    border-bottom: 3px solid #07b148;
+    margin: 0;
+    padding: 10px; 
+}
+
+.post .delete {
+    background-color: #cf3a15;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.post .archive {
+    background-color: #A3AE9E;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.aside li{
+    list-style-type: square;
+}
